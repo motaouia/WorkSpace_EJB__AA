@@ -28,3 +28,4 @@ RemoteSystemsTempFiles
 .project
 .classpath
 .settings
+/.recommenders/

@@ -2,8 +2,11 @@ package metier;
 
 import java.util.List;
 
+import javax.ejb.Remote;
+
 import metier.entities.Compte;
 
+@Remote
 public interface IBanqueRemote {
 	
 	public Compte addCompte(Compte compte);

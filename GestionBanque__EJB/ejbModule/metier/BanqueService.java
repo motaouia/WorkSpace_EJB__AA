@@ -9,10 +9,11 @@ import javax.persistence.Query;
 
 import metier.entities.Compte;
 
-@Stateless(name="BS")
+//@Stateless(name="BS")
+@Stateless
 public class BanqueService implements IBanqueLocal, IBanqueRemote {
 
-	@PersistenceContext(name="GestionComptesBancaires__EJB")
+	@PersistenceContext(name="UP_GestionBanque")
 	private EntityManager entityManager;
 	
 	@Override
