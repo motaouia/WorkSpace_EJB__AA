@@ -3,8 +3,8 @@
 	<persistence-unit name="UP_GestionBanque" transaction-type="JTA">
 		<jta-data-source>java:jboss/banque_ds</jta-data-source>
 		<class>metier.entities.Compte</class>
-		<properties>
+		<!--  <properties>
 			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
-		</properties>
+		</properties>-->
 	</persistence-unit>
 </persistence>
